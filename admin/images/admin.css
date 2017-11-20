@@ -1,0 +1,138 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0; }
+fieldset,img{border:0;}
+em,strong,th{font-style:normal;font-weight:400;}
+ol,ul{list-style:none;}
+th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;} 
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit;}
+
+/* global */
+html{height: 100%;width: 100%;}
+body{font-size:12px; font-family:"Microsoft Yahei",Arial, Helvetica, sans-serif;color:#4D4D4D;background:#ffffff;height: 100%;}
+a{color:#2464B2;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+img{border:0;}
+em{color:#F00; font-style:normal;}
+h3{margin:0; padding:0; font-size:14px;}
+ul,li{list-style:none;margin:0; padding:0;}
+p,form,div,h2,h4{margin:0; padding:0}
+*{margin:0; padding:0;}
+b{font-weight:bold;}
+.red{color:#F00;}
+.blue{color:#00F;}
+.green{color:#0093ff;}
+.cl{clear:both; overflow:hidden; height:0px;}
+.cl5{clear:both; overflow:hidden; height:5px;}
+.cl8{clear:both; overflow:hidden; height:8px;}
+.cl10{clear:both; overflow:hidden; height:10px;}
+input,button,select,textarea{outline:none}
+.gray{ color:#999;}
+
+#header{height:100%;width: 15%;float:left; background:#252834; overflow:hidden; }
+#header .con{ height:100%; width:100%; margin:0 auto; overflow:hidden;position:relative}
+
+.logo{ width:100%; margin:20px 0px 0 0px; overflow:hidden;background:url(adminlogo.png) no-repeat center top; display:inline-block; float:left;}
+.logo a{height:60px; width:100%; display:block; line-height:300px; overflow:hidden;}
+
+.aik_info{display:inline-block; height:30px; width: 100%; line-height:30px; text-align:center; color:#9b9be7;background: #1e222b;}
+.aik_info a{ color:#FFF;}
+
+.aik_nav{ width:100%;  clear:right; display:inline-block;  margin:5px 0 0 0; overflow:hidden;}
+.aik_nav li{ width:100%; }
+.aik_nav li a{ width:100%; display:block; height:45px; border-left: 3px solid rgba(0,0,0,0);line-height:45px;text-decoration:none; text-indent: 3em; color:#cfcfd1; font-size:14px; font-weight:bold; }
+.aik_nav li a:hover{  
+	background-color:#20242e;
+	color: #fff;
+	border-left: 3px solid ;
+	border-image: linear-gradient( #fa584e , #fc6c2e) 1 1;
+	border-image: -webkit-linear-gradient( #fa584e , #fc6c2e) 1 1;
+	border-image: -moz-linear-gradient( #fa584e , #fc6c2e) 1 1;
+	border-image: -o-linear-gradient( #fa584e , #fc6c2e) 1 1;
+	}
+.aik_nav li a.this{background-color:#0093ff;color: #fff;}
+.admin-banquan{
+	position:absolute;
+	bottom:10px;
+	width: 100%;
+	text-align: center;
+}
+#head-right{
+	width: 85%;
+	height: 8%;
+    float: left;
+    background: #252834;
+}
+#hd_main {
+	margin: 0px auto;
+	width: 85%;
+	height: 90%;
+	float: left;
+	overflow: auto;
+	/*clear:both;*/
+	position: relative;
+	background-color: #FFF;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 400px;
+}
+/*滚动条开始*/
+#hd_main::-webkit-scrollbar ,textarea::-webkit-scrollbar{
+	width: 8px;
+	height: 10px;
+}
+
+#hd_main::-webkit-scrollbar-button,textarea::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	background-color: royalblue;
+}
+
+#hd_main::-webkit-scrollbar-track ,textarea::-webkit-scrollbar-track{
+	background: #ccc;
+	border-radius: 5px;
+}
+
+#hd_main::-webkit-scrollbar-thumb ,textarea::-webkit-scrollbar-thumb{
+	background: #0093ff;
+	border-radius: 5px;
+}
+  
+/*滚动条结束*/
+.hd_bj{background:#fff;}
+.hd_bt{background:url(zu.png);background-position: center top;background-size:contain;width: 100%;height: 80px;}
+.tablecss{background:#fff;
+	margin:20px auto 0;
+	word-break:break-all;
+	border:0;
+	}
+
+
+.nth{border:none;background:#0093FF;color: #fff;padding: 8px 50px;border-radius: 20px; margin: 30px auto 50px;}
+.nth:hover{background: #fb623f;}
+
+.tablecss tr{background:#fff;}
+.tablecss td{ padding:5px 5px; font-size:14px;border:#f1f1f1 solid 1px; }
+.tablecss textarea{font-family:Courier New;padding:1px 3px 1px 3px;border-radius: 3px;}
+.tablecss input{font-family:11px; padding:1px 2px 1px 2px;border-radius: 2px;border:1px solid rgb(169, 169, 169);}
+.tablecss tr.header td{ padding:5px 7px 5px 7px; background-color:#68ADE1; color:#FFFFFF;background:#68ADE1;}
+.tablecss tr.header td a{ color:#FFF;}
+.fnum{font-size:9px;}
+.s_title{ color:#585a60; padding:2px 0px;}
+
+.theads td{ background:#F6F9FD; padding:3px 7px;}
+.thead td{ background:#EaikFF url(aik_bgs.gif) repeat-x 0 -235px; padding:3px 7px; overflow:hidden;}
+.tfoot td{ background:#E8E8E8 url(aik_bgs.gif) repeat-x 0 -235px; padding:2px 7px; line-height:200%; }
+
+.btnlist{ margin:20px auto;}
+.btnlist a{ display:inline-block; float:left; width:120px; height:36px; line-height:36px; text-align:center; background-color:#03F; color:#FFF; font-size:14px; margin:0 0px 0 30px;}
+.btnlist a:hover{ text-decoration:none; background-color:#F60;}
+.btnlist a.this{ text-decoration:none; background-color:#F60;}
+.sxlist{ display:inline; float:left; margin-right:10px;}
+.sxlist li{ display:inline-block; width:30px; height:30px; text-align:center; line-height:30px; border:1px solid #999; margin-left:5px; cursor:pointer; background-color:#CCC;}
+
+#footer{ height:36px; line-height:20px; color:#999999; text-align:center; clear:both;padding-bottom:20px;}

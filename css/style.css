@@ -1,0 +1,599 @@
+/**************************************************
+ * 北漂鱼Vip细节新版样式文件
+ * 编写：Beipy(http://www.beipy.com)
+ * 时间：2017年7月16日
+ * 前端样式为北漂鱼原创设计UI图样设计
+ * 所有代码均独立编写，谢绝一切形式的盗站行为！！
+ *************************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Microsoft Yahei", sans-serif, "宋体";
+}
+a{
+	text-decoration: none;
+}
+
+
+/*body滚动条开始*/
+
+body::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+body::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	background-color: royalblue;
+}
+
+body::-webkit-scrollbar-track {
+	background: #ccc;
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #0093ff;
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar-corner {
+	background: #82AFFF;
+}
+
+body::-webkit-scrollbar-resizer {
+	background: #FF0BEE;
+}
+
+.btnColor-jb {}
+
+
+/*body滚动结束*/
+
+header {
+	background: #333333;
+}
+
+header a {
+	color: #fff;
+}
+
+header .container {
+	padding: 0;
+}
+
+header nav.navbar {
+	margin-bottom: 0;
+}
+
+header nav.navbar-default {
+	background-color: transparent;
+	border: 0;
+}
+
+header .navbar-brand {
+	padding: 0px 0px;
+	margin: 4px 10px;
+}
+
+.icon-bar {
+	background-color: #fff !important;
+}
+
+header .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #333333;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color: #fff;
+	background-color: transparent;
+}
+
+.logo {
+	display: inline-block;
+	width: 150px;
+	height: 42px;
+	float: left;
+	background-position: -183px 0;
+	background-image: url(../img/jingling.png);
+	background-repeat: no-repeat;
+}
+
+
+/*video-box样式*/
+
+.video-box {
+	background-image: url(../img/mbj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding-right: 8px;
+	padding-left: 8px;
+	position: relative;
+}
+
+.video-box>.container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#palybox {
+	width: 100%;
+	height: 224px;
+}
+
+.tit-name {
+	text-align: center;
+	line-height: 35px;
+	margin-top: 20px;
+	vertical-align: middle;
+	color: #3376f3;
+	background: #0f1856;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+
+.tit-name h1 {
+	display: inline-block;
+	font-size: 16px;
+	width: 70%;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+
+
+/*输入input样式*/
+
+.url-text {
+	height: 35px;
+	border: 1px solid #060c37;
+	background: #060c37;
+	color: #3376f3;
+}
+
+.url-box {
+	background: #0f1856;
+	padding: 10px 5px;
+	margin-top: -6px;
+}
+
+div.url-box .input-group-addon {
+	padding: 0;
+	border: none;
+}
+
+.url-text:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.btn-play {
+	height: 35px;
+	padding: 0 10px;
+	color: #fff;
+	border: none;
+	background: -webkit-linear-gradient(left, #19c3ff, #0093ff);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(left, #19c3ff, #0093ff);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(left, #19c3ff, #0093ff);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(left, #19c3ff, #0093ff);
+	/* 标准的语法 */
+}
+
+div.url-box .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+div.url-box .btn-play:focus {
+	outline-style: none;
+	color: #FFFFFF;
+}
+
+div.url-box .btn-play:active {
+	color: #0093ff;
+	background: -webkit-linear-gradient(left, #ffb199, #fa709a);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(left, #ffb199, #fa709a);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(left, #ffb199, #fa709a);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(left, #ffb199, #fa709a);
+	/* 标准的语法 */
+}
+
+div.url-box .btn-play:hover {
+	color: #FFFFFF;
+}
+
+.tit-gg {
+	text-align: center;
+	line-height: 35px;
+	margin-bottom: 80px;
+	vertical-align: middle;
+	color: #3376f3;
+	background: #0f1856;
+	vertical-align: middle;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+
+
+/*logo平台*/
+.title-tit {
+		font-family: "微软雅黑";
+		padding: 20px 0 10px;
+	}
+	.title-tit h4 {
+		display: inline-block;
+		border-left: 5px solid #0093FF;
+		padding-left: 10px;
+		font-size: 16px;
+		line-height: 1rem;
+		font-weight: bold;
+	}
+	.title-tit p {
+		display: inline-block;
+		font-size: 12px;
+		color: #555555;
+	}
+.logo-lie {
+	background: #fff;
+	text-align: center;
+	padding: 4px 10px;
+	border-radius: 4px;
+	border: 1px solid #EEEEEE;
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+
+.logo-lie a {
+	text-align: center;
+}
+
+.logo-box>.container>.row>.col-xs-4 {
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+
+.logo-box>.container>.row>.col-lg-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/*评论区*/
+.cy-box .container{
+	    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/*页尾*/
+.footer{
+	margin-top: 30px;
+	background:#26282c;
+}
+.branding_link{
+	display: none;
+	text-align: center;
+}
+.footer-tit{
+	text-align: center;
+	color: #888;
+}
+.toot-tto{
+	margin-bottom:3em;
+}
+.foot-tt{
+	color: #777777;
+}
+.counter{
+	margin: 15px 0;
+	color: rgba(255, 255, 255, 0.7);
+}
+/*侧滑样式*/
+.ch1{
+	display: none;
+}
+/*屏幕最小768px匹配样式*/
+
+@media (min-width: 768px) {
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+
+	/*头部导航样式*/
+	header {
+		background: #fff;
+		background: #FFFFFF;
+		width: 100%;
+		height: 70px;
+		box-shadow: 1px 1px 1px #d8d8d8;
+		-webkit-box-shadow: 1px 1px 1px #d8d8d8;
+	}
+	header a {
+		color: #333;
+	}
+	header .navbar>.container-fluid .navbar-brand {
+		margin-left: 0px;
+	}
+	header .container-fluid {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	header .navbar-brand {
+		margin: 14px 0px;
+		margin-left: 0px;
+		line-height: 40px;
+	}
+	.nav .open>a,
+	.nav .open>a:hover,
+	.nav .open>a:focus {
+		border-color: #0093ff;
+	}
+	.logo {
+		background-position: 0px 0;
+	}
+	header .navbar-nav>li>a {
+		line-height: 40px;
+		color: #333 !important;
+		padding-bottom: 11px;
+		border-bottom: 4px solid #fff;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+	}
+	header .navbar-nav>li>a:hover {
+		color: #0093ff !important;
+		border-bottom: 4px solid #0093ff;
+	}
+	header .active {
+		background-color: transparent;
+	}
+	header .navbar-nav>li>a:focus {
+		background-color: transparent !important;
+	}
+	header ul.dropdown-menu {
+		border: 1px solid #0093FF;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, .175);
+	}
+	.weibo-box {
+		width: 300px;
+		height: 530px;
+	}
+	.weibo-tit {
+		text-align: center;
+	}
+	/*video-box样式*/
+	.video-box {
+		background: url(../img/video.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+	}
+	/*palybox视频窗口*/
+	#palybox {
+		height: 659px;
+	}
+	.tit-name {
+		text-align: left;
+		margin-top: 30px;
+		padding: 10px 20px;
+		color: #fff;
+		/*background: #fff;*/
+		/*color: #333;*/
+		border-radius: 5px 5px 0 0;
+		background: rgba(0,0,0,.49);
+	}
+	.tit-name h1{
+		font-size: 1.2em;
+	}
+	
+	.tit-name span {
+		color: #b2b2b2;
+		font-size: 1em;
+		vertical-align: middle;
+	}
+	.url-box {
+		background: #fff;
+		padding: 15px 15px;
+	}
+	.url-text {
+		height: 40px;
+		background: #f2f3f5;
+		border: 1px solid #f2f3f5;
+		border-right: 0px;
+		border-radius: 20px 0 0 20px;
+	}
+	.btn-play {
+		height: 40px;
+		color: #fff;
+		padding: 0 40px;
+		border-radius: 20px;
+	}
+	div.url-box .btn-play:hover {
+		color: #FFFFFF;
+		background: -webkit-linear-gradient(left, #ffb199, #fa709a);
+		/* Safari 5.1 - 6.0 */
+		background: -o-linear-gradient(left, #ffb199, #fa709a);
+		/* Opera 11.1 - 12.0 */
+		background: -moz-linear-gradient(left, #ffb199, #fa709a);
+		/* Firefox 3.6 - 15 */
+		background: linear-gradient(left, #ffb199, #fa709a);
+		/* 标准的语法 */
+	}
+	.url-c {
+		border-radius: 0px 0 0 0px;
+		padding: 0 15px;
+		box-shadow: 0px 1px 2px rgba(153, 153, 153, 0.32) inset;
+	}
+	div.url-box .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+	.tit-gg {
+		text-align: left;
+		border-top: 1px solid #F5F5F5;
+		padding: 10px 20px;
+		background: #fff;
+		color: #999;
+	}
+	/*logo平台*/
+	.logo-box>.container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.logo-box>.container>.row {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.title-tit {
+		font-family: "微软雅黑";
+		padding: 50px 0 10px;
+		margin-bottom: 10px;
+	}
+	.title-tit h4 {
+		display: inline-block;
+		border-left: 5px solid #0093FF;
+		padding-left: 10px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.title-tit p {
+		padding-left: 20px;
+		display: inline-block;
+		font-size: 12px;
+		color: #555555;
+	}
+	.logo-box>.col-sm-2 {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.logo-box>.container>.row>.col-xs-4 {
+		margin-bottom: 15px;
+	}
+	.logo-lie {
+		padding: 10px 15px;
+	}
+	.logo-lie:hover {
+		border: 1px solid #0093FF;
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 147, 255, .6);
+	}
+	/*页尾*/
+	.footer{
+		background:#333;
+	}
+	.footer a:hover{
+		color: #0093ff;
+	}
+	.branding_link{
+		display: block;
+		text-align: center;
+		padding: 10px 0;
+	}
+	/*侧滑*/
+	.ch1 {
+		display: block;
+		position: fixed;
+		width: 50px;
+		z-index: 999;
+		left: 225px;
+		bottom: 30%;
+	}
+	
+	.ch1 a {
+		display: inline-block;
+	}
+	
+	
+	.ch {
+		position: fixed;
+		width: 50px;
+		z-index: 999;
+		right: 15px;
+		bottom: 15px;
+	}
+	.rollbar-weibo {
+		background: url(../img/ce.png) no-repeat scroll -156px 0px;
+	}
+	
+	.rollbar-weibo,
+	.rollbar-item,
+	.rollbar-weix {
+		text-align: center;
+		height: 50px;
+		border-radius: 0px;
+		background-color: #666;
+		color: #fff;
+		opacity: 0.5;
+		cursor: pointer;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+	
+	.rollbar-weibo a,
+	.rollbar-item a {
+		width: 50px;
+		height: 50px;
+		display: inline-block;
+	}
+	
+	.rollbar-item {
+		background: url(../img/ce.png) no-repeat scroll -208px 0px;
+	}
+	
+	.rollbar-item:hover,
+	.rollbar-weibo:hover,
+	.rollbar-weix:hover {
+		color: #fff;
+		opacity: 0.9;
+	}
+	
+	.rollbar-weix {
+		background: url(../img/ce.png) no-repeat scroll -104px 0px;
+	}
+	
+	.rollbar-weix:hover .weixinx {
+		display: block;
+	}
+	
+	.weixinx {
+		display: none;
+		width: 164px;
+		height: 206px;
+		position: absolute;
+		left: -164px;
+		bottom: 0;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+	
+	.weixinx {
+		background: url(../img/ce.png) no-repeat scroll 0px -52px;
+	}
+}
