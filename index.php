@@ -1,4 +1,4 @@
-<?php include ('./data/beipy.inc.php');?>
+<?php include ('./data/incbeipy.php');?>
 <!--
 Ho~　★★★★★★
 　　○★★★★★★★○  
@@ -115,7 +115,7 @@ Ho~　★★★★★★
 					<span>正在播放:</span>
 					<h1 id="tittext">感谢您使用北漂鱼视频解析服务,正在播放音乐MV视频！</h1>
 				</div>
-				<iframe id="palybox" src="<?php echo $aik['jiekou1'];?><?php echo $aik['maurl'];?>" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+				<iframe id="palybox" src="<?php echo $aik['jiekou1'];?><?php echo $aik['maurl'];?>" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
 
 				<div class="url-box">
 					<div class="input-group">
