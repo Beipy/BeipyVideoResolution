@@ -1,4 +1,4 @@
-<?php include ('./data/incbeipy.php');?>
+<?php include ('./data/beipy.inc.php');?>
 <!--
 Ho~　★★★★★★
 　　○★★★★★★★○  
