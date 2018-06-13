@@ -12,7 +12,7 @@ php 5.4+
 
 ### 界面欣赏
 -----
-![PNG](img/TestImg/WX20180613-173014.png)
+![PNG](img/TestImg/WX20180613-173014.jpg)
 
 在线演示：http://tv.beipy.com 
 #### 采用的开源模块
