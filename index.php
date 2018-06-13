@@ -43,7 +43,6 @@ Ho~　★★★★★★
 		<!--苹果桌面图标-->
 		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/tvlogo.png">
 	</head>
-
 	<body>
 		<header>
 			<div class="container">
@@ -368,7 +367,6 @@ Ho~　★★★★★★
 						</div>
 					</div>
 				</div>
-
 				<!---->
 			</div>
 		</div>
@@ -388,20 +386,14 @@ Ho~　★★★★★★
 				<!--畅言内容框-->
 				<?php echo $aik['changyan'];?>
 				<!--PC和WAP自适应版-->
-
-				
 				<!---->
 			</div></div>
-
 			<?php  include 'footer.php';?>
-
 		<script>
 			console.log("%c%c源码作者%c北漂鱼", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:4px;background:#FADFA3;color:#000;line-height:28px;font-size:14px;");
 			console.log("%c%c网站地址%chttp://www.beipy.com", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:6px 6px 6px 2px;background:#FADFA3;color:#0093fff;line-height:28px;font-size:12px;");
 			console.log("%c%c新浪微博%c北漂鱼的故事", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:4px;background:#FADFA3;color:red;line-height:28px;font-size:14px;");
 			console.log("%c%c就知道阻挡不住你观看源码的冲动，但你至少要记住我！-----北漂鱼", "line-height:28px;", "line-height:28px;padding:4px 0px;color:#fff;font-size:16px;background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#ff22ff),color-stop(1,#5500ff));color:transparent;-webkit-background-clip:text;");
 		</script>
-	
 	</body>
-
 </html>

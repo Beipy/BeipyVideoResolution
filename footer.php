@@ -16,18 +16,12 @@
 			<p><?php echo $aik['foot'];?></p>
 			
 			<p>管理员邮箱：<?php echo $aik['admin_email'];?>&nbsp; <a class="foot-tt" href="http://www.miitbeian.gov.cn" ><img style="vertical-align: middle;" src="img/beian.png"/><?php echo $aik['icp'];?></a>&nbsp; </p>
-			<p>Copyright&nbsp;&copy;&nbsp;2017&nbsp;	<a href="http://beipy.com" target="_blank" style="color:#888;">beipy.com</a>版权所有</p>
+			<p>Copyright&nbsp;&copy;&nbsp;2017~2018&nbsp;	<a href="http://beipy.com" target="_blank" style="color:#888;">beipy.com</a>版权所有</p>
 			<p class="toot-tto"><?php echo $aik['tongji'];?></p>
 			<!--统计展示-->
-			
-				
 		</div>
 	</div>
  </footer>
- 
- 
- 
- 
 <!--侧滑-->
 <section class="ch">
 	<div class="rollbar-weibo" title="新浪微博关注一下我">
@@ -41,7 +35,7 @@
 	<?php echo $aik['ch1'];?>
 </section>
 
-<!--<script type="text/javascript">
+<script type="text/javascript">
 		//判断F12审查元素
 function fuckyou() {
 	window.close(); //关闭当前窗口(防抽)
@@ -74,4 +68,4 @@ window.onresize = function() {
 		//判断当前窗口内页高度和窗口高度，如果差值大于200，那么呵呵
 		fuckyou();
 }
-</script>-->
+</script>
