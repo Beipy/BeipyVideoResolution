@@ -15,7 +15,7 @@ php 5.4+
 
 ### 界面欣赏
 -----
->>>>![PNG](img/TestImg/ezgif27.gif)
+![PNG](img/TestImg/ezgif27.gif)
 
 
 #### 采用的开源模块
