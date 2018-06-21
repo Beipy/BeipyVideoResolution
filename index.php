@@ -44,7 +44,7 @@ Ho~　★★★★★★
 		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/tvlogo.png">
 	</head>
 	<body>
-		<header>
+		<header class="navbar-fixed-top">
 			<div class="container">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
