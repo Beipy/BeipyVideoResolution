@@ -9,9 +9,7 @@ function play() {
 		var jkv = jxApi.options[jxurl].value; //获取选择接口链接
 		var paly = document.getElementById("palybox"); //获取播放窗口位置
 		paly.src = jkv + rul; //接口赋值
-
 		//ajax数据传递
-
 		var tittext = document.getElementById("tittext");
 		//1,create ajax核心对象：
 		var xhr = getxhr();
@@ -29,7 +27,6 @@ function play() {
 				tittext.innerHTML = xhr.responseText; //获取服务器响应数据
 			}
 		}
-
 		function getxhr() {
 			var xhr = null;
 			if(window.XMLHttpRequest) {

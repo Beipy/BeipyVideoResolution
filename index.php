@@ -18,7 +18,6 @@ Ho~　★★★★★★
 -->
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
 		<title>
@@ -30,7 +29,6 @@ Ho~　★★★★★★
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/tv-beipy.js" /></script>
 		<!--微博引入关注插件-->
 		<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" href="css/style.css" />
@@ -386,9 +384,9 @@ Ho~　★★★★★★
 				<!--畅言内容框-->
 				<?php echo $aik['changyan'];?>
 				<!--PC和WAP自适应版-->
-				<!---->
 			</div></div>
 			<?php  include 'footer.php';?>
+			<script type="text/javascript" src="js/tv-beipy.js" /></script>
 		<script>
 			console.log("%c%c源码作者%c北漂鱼", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:4px;background:#FADFA3;color:#000;line-height:28px;font-size:14px;");
 			console.log("%c%c网站地址%chttp://www.beipy.com", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:6px 6px 6px 2px;background:#FADFA3;color:#0093fff;line-height:28px;font-size:12px;");
