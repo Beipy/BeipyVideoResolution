@@ -11,15 +11,17 @@ php 5.4+
 
 本源码由 [beipy(http://beipy.com)](http://beipy.com) 开发，您可以随意修改、使用、转载。使用或转载时<font style="color:red">`请务必保留开发版权`！</font>
 
-如发现修改版权的人或单位一单被永久记入本人黑名单！  **如发现有修改版权的请与本人反馈，在此谢过！📮Email:<beipy0@163.com>**
+如发现修改版权的人或单位一单被永久记入本人黑名单！  
+
+**如发现有修改版权的请与本人反馈，在此谢过！📮Email:<beipy0@163.com>**
 
 -----
-##### <font style="color:red">❗️版权耻辱</font>
+#### <font style="color:red">❗️版权耻辱</font>
 以下个人以及单位，永久进入本人的黑名单！本人感到无比的耻辱！
 
 <font style="color:red">`奉劝某些“人”保留住做人的最基本底线，遵守开源协议，并引以为戒`</font>
 
- > - **质量人 [[ http://iatf-16949.com ](http://iatf-16949.com)]** 原因：更改开发版权！
+- **质量人 [[ http://iatf-16949.com ](http://iatf-16949.com)]** 原因：更改开发版权！
 - **送码网 [[ https://www.songma.com ](https://www.songma.com)]** 原因：未经本人允许进行非法售卖！
 - **我爱分享网 [[ https://vip.fxw.la ](http://vip.fxw.la)]** 原因：更改版权，去除本站开发版权！
 - **蓝天 [[ http://wwpw.top/ ](http://wwpw.top)]** 原因：更改版权，去除本站开发版权！
