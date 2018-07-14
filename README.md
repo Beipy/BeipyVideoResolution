@@ -21,13 +21,11 @@ php 5.4+
 
 <font style="color:red">`奉劝某些“人”保留住做人的最基本底线，遵守开源协议，并引以为戒`</font>
 
-- **质量人 [[ http://iatf-16949.com ](http://iatf-16949.com)]** 原因：更改开发版权！
 - **送码网 [[ https://www.songma.com ](https://www.songma.com)]** 原因：未经本人允许进行非法售卖！
 - **我爱分享网 [[ https://vip.fxw.la ](http://vip.fxw.la)]** 原因：更改版权，去除本站开发版权！
 - **蓝天 [[ http://wwpw.top/ ](http://wwpw.top)]** 原因：更改版权，去除本站开发版权！
 - **蓝海 [[ http://lanhaitv.com/ ](http://lanhaitv.com/)]** 原因：更改版权，去除本站开发版权！
 - **Anymore's Vip解析 [[ http://zzxzz.cn/ ](http://zzxzz.cn/)]** 原因：更改版权，去除本站开发版权！
-- **体面人 [[ http://www.timianren.com/ ](http://www.timianren.com/)]** 原因：更改版权，去除本站开发版权！
 
 #### 相关链接
 - 在线演示：[beipy(http://tv.beipy.com)](http://tv.beipy.com)
@@ -48,6 +46,10 @@ php 5.4+
 
 ### 更新日志
 -----
+#### v2.3 `2018/7/15`
+- 构建加密通道；
+- 加密信息版权；
+
 #### v2.2 `2018/6/21`
 - 修复导航菜单下顶菜单；
 - 新增导航栏跟随页面

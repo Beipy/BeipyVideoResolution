@@ -1,21 +1,4 @@
 <?php include ('./data/beipy.inc.php');?>
-<!--
-Ho~　★★★★★★
-　　○★★★★★★★○  
-　　★★　　　 　★★  
-　★★　∩　　∩　 ★★  
-　★★　　　●　 　★★  
-　★★　　　　　　★★  
-　　★★　　　　★★  
-　　　　★★★★　　　◢◤  
-　　╭　〡〡〡〡　╮╱  
-　　　—┘—┘└—└—
-	编写：Beipy(http://www.beipy.com)
-	时间：2017年7月16日
-	版权归属：北漂鱼	
-	描述：全网VIP视频在线解析。
-	所有代码均独立编写，谢绝一切形式的盗站行为！！
--->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -28,6 +11,7 @@ Ho~　★★★★★★
 		<meta name=viewport content="width=device-width,anicital-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/base64.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<!--微博引入关注插件-->
 		<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
@@ -387,11 +371,5 @@ Ho~　★★★★★★
 			</div></div>
 			<?php  include 'footer.php';?>
 			<script type="text/javascript" src="js/tv-beipy.js" /></script>
-		<script>
-			console.log("%c%c源码作者%c北漂鱼", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:4px;background:#FADFA3;color:#000;line-height:28px;font-size:14px;");
-			console.log("%c%c网站地址%chttp://www.beipy.com", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:6px 6px 6px 2px;background:#FADFA3;color:#0093fff;line-height:28px;font-size:12px;");
-			console.log("%c%c新浪微博%c北漂鱼的故事", "line-height:28px;", "line-height:28px;padding:4px;background:#222;color:#FADFA3;font-size:14px;", "padding:4px;background:#FADFA3;color:red;line-height:28px;font-size:14px;");
-			console.log("%c%c就知道阻挡不住你观看源码的冲动，但你至少要记住我！-----北漂鱼", "line-height:28px;", "line-height:28px;padding:4px 0px;color:#fff;font-size:16px;background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#ff22ff),color-stop(1,#5500ff));color:transparent;-webkit-background-clip:text;");
-		</script>
 	</body>
 </html>
