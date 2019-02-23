@@ -25,7 +25,10 @@ function curl_https($url, $data=array(), $header=array(), $timeout=30){
     //curl_setopt($ch, CURLOPT_POST, true);  
     //curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));  
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    //2019-2-23 13:09:31 修复报错title curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    if (ini_get('open_basedir') == '' && ini_get('safe_mode' == 'Off')) {
+        curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
+    }
     curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);  
     $response = curl_exec($ch);  
     if($error=curl_error($ch)){  

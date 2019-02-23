@@ -47,7 +47,7 @@ Ho~　★★★★★★
 					  <td width="690" valign="middle">
 					  	<input name="edit" id="edit" type="hidden" value="1" />
 					  	<input type="text" name="aik[sitename]" class="shuru" value="<?php echo $aik['sitename']?>" size="50" >
-					  	<span class="gray tips">如：北漂鱼影院</span>
+					  	<span class="gray tips">如：北漂鱼全网解析</span>
 					  </td>
 					</tr>
 					<tr>

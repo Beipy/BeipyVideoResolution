@@ -4,6 +4,14 @@ VipVideoResolution是一款开源视频播放框架。具有切换接口、自�
 
 前端界面Beipy自供自给进行设计布局，同时采用了流行的响应式设计，无论是在PC端还是在手机端，均能给您带来舒适的使用体验。
 
+#### 程序相关配置
+安装后为了安全，请自行更改后台目录位置文件夹名称！
+
+- 在线演示：[beipy(http://tv.beipy.com)](http://tv.beipy.com)
+- 默认后台管理页面 `/admin`；
+- 默认后台账号：beipy.com    
+- 默认后台密码：admin
+
 #### 运行环境
 php 5.4+ 
 
@@ -27,9 +35,6 @@ php 5.4+
 - **蓝海 [[ http://lanhaitv.com/ ](http://lanhaitv.com/)]** 原因：更改版权，去除本站开发版权！
 - **Anymore's Vip解析 [[ http://zzxzz.cn/ ](http://zzxzz.cn/)]** 原因：更改版权，去除本站开发版权！
 
-#### 相关链接
-- 在线演示：[beipy(http://tv.beipy.com)](http://tv.beipy.com)
-
 ### 界面欣赏
 -----
 ![PNG](img/TestImg/ezgif27.gif)
@@ -46,6 +51,11 @@ php 5.4+
 
 ### 更新日志
 -----
+#### v2.5 `2019/2/23`
+- 修复CURLOPT_FOLLOWLOCATION获取报错；
+- 调整后台细节信息；
+- 新增页脚Footer版本号；
+
 #### v2.3 `2018/7/15`
 - 构建加密通道；
 - 加密信息版权；

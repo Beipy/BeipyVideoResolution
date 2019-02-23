@@ -26,7 +26,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/tvlogo.png">
 	</head>
 	<body>
-		<header class="navbar-fixed-top">
+	<header class="navbar-fixed-top">
 			<div class="container">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
@@ -45,13 +45,13 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li>
-									<a href="http://www.beipy.com" target="_blank">官方博客</a>
+									<a href="http://beipy.com" target="_blank">官网</a>
 								</li>
 								<li>
-									<a href="http://v.beipy.com" target="_blank"> <span class="badge" style="background: red;margin-right:5px ;">NEW</span>北漂鱼影院<span class="sr-only">(current)</span></a>
+									<a href="http://www.beipy.com" target="_blank">Beipy博客</a>
 								</li>
 								<li>
-									<a href="#">音乐盒</a>
+									<a href="https://github.com/Beipy/VipVideoResolution" target="_blank"><span class="badge" style="background: #24292e;margin-right:5px;">Git</span>开源程序<span class="sr-only">(current)</span></a>
 								</li>
 								<?php echo $aik['topnav'];?>
 							</ul>
@@ -59,7 +59,7 @@
 							<ul class="nav navbar-nav navbar-right">
 								
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="badge" style="background: red;">1</span>  旗下网站 <span class="caret"></span></a>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于版本<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li>
 											<a href="http://www.beipy.com" target="_blank" title="北漂鱼互动分享（beipy.com)，互动笔记、原创教程、资源分享、疑难解答、最新技术，Web前端及爱好者提供一个信息交流、经验分享、互帮互助的平台">官方博客</a>
@@ -67,21 +67,14 @@
 										<li>
 											<a href="<?php echo $aik['weibourl'];?>" target="_blank" title="北漂鱼微博">北漂鱼微博</a>
 										</li>
+										<li>
+											<a href="http://tao.beipy.com" target="_blank" title="领取优惠券购物，不花冤枉钱">鱼券券</a>
+										</li>
 										<li role="separator" class="divider"></li>
 										<li>
-											<a href="http://tao.beipy.com" target="_blank" title="领取优惠券购物，不花冤枉钱">购BUY</a>
-										</li>
-										<li>
-											<a href="http://www.beipy.com/bz" target="_blank">高清壁纸</a>
-										</li>
-										
-										<li>
-											<a href="http://v.beipy.com" target="_blank">北漂鱼影院</a>
+											<a><p>版本号：V2.5</p></a>
 										</li>
 									</ul>
-								</li>
-								<li>
-									<a href="http://v.beipy.com/app.php" target="_blank">客户端</a>
 								</li>
 							</ul>
 						</div>

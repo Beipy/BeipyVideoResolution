@@ -12,8 +12,8 @@ if($_POST['username'] && $_POST['password']){
 	$admin_name = htmlspecialchars($_POST['username']);
 	$admin_pass = md5ff(htmlspecialchars($_POST['password']));
 	if($admin_name==$aik['admin_name']  && $admin_pass==$aik['admin_pass']){
-		$_SESSION['admin_aik'] = 'http://www.ff6.wang/';
-		//header("location: ./index.php");
+		$_SESSION['admin_aik'] = 'http://beipy.com/';
+		header("location: ./index.php");
 		echo '<script>window.location.href="./index.php";</script>';
 		exit;
 	}else{
@@ -24,12 +24,30 @@ function md5ff($str=1){
 	return md5($str.'ff371');
 }
 ?>
+<!--
+Ho~　★★★★★★
+　　○★★★★★★★○  
+　　★★　　　 　★★  
+　★★　∩　　∩　 ★★  
+　★★　　　●　 　★★  
+　★★　　　　　　★★  
+　　★★　　　　★★  
+　　　　★★★★　　　◢◤  
+　　╭　〡〡〡〡　╮╱  
+　　　—┘—┘└—└—
+	作者：beipy@qq.com
+	时间：2017-07-23
+	版权归属：北漂鱼	
+	描述：全网VIP视频在线解析。
+	
+-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>后台管理登录</title>
+<title>Beipy后台管理登录</title>
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="./../favicon.ico">
 <style>
 		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,select,input,textarea,button,p,blockquote,th,td {margin:0; padding:0; outline:none;}
 		body {
@@ -167,7 +185,7 @@ function ck(){
 		  <td align="center" valign="middle">
 		  	<p style="width:236px;text-align:left;color:#8d8d8d;" >
 		  		
-			  	<span class="gray tips">默认用户名:admin 默认密码:admin</span>
+			  	<span class="gray tips">默认用户名:beipy 默认密码:beipy.com</span>
 		  	</p>
 		  </td>
 		</tr>

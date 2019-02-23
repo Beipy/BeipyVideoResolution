@@ -93,7 +93,7 @@ Ho~　★★★★★★
 			<!--内容-->
 		   <div style="margin-top:20px ;">
 		   	<?php $path = $_SERVER['SCRIPT_NAME'];
-		   		if($aik['admin_name']=='admin' && $aik['admin_pass']=='3ceb0e9fb16f8673c35f707e8657124a'){
+		   		if($aik['admin_name']=='beipy' && $aik['admin_pass']=='8099cb8e23c7375f2166c5dce7d715fd'){
 			   		echo '<div class="tishi-houtai"><p><span>!</span>您的账号密码为系统默认，请尽快修改<a href="./setting.php">立即修改></a></p></div>';	
 				}
 			    if(strpos($path,'/admin/')>-1){
@@ -108,7 +108,7 @@ Ho~　★★★★★★
 				</tr>
 			  	<tr>
 				    <td align="right">当前使用版：</td>
-				    <td><span>北漂鱼解析系统V1版本</span></td>
+				    <td><span>北漂鱼解析系统版本V1.1</span></td>
 			  	</tr>
 			  	<tr>
 				    <td width="213" align="right">服务器操作系统：</td>

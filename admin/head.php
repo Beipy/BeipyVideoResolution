@@ -10,6 +10,7 @@
 			<li><a href="./"<?php echo $nav=='home'?' class="this"':''?> title="后台状态"><span style="color:#cfcfd1">● </span>后台状态</a></li>
 			<li><a href="./setting.php"<?php echo $nav=='setting'?' class="this"':''?> title="全局设置"><span style="color:#cfcfd1">● </span>全局设置</a></li>
 			<li><a href="http://beipy.com" target="_blank" title="官网"><span style="color:#cfcfd1">● </span>官网</a></li>
+      <li><a href="http://www.beipy.com" target="_blank" title="Beipy Show"><span style="color:#cfcfd1">● </span>Beipy Show博客</a></li>
     </ul>
     
     <!--版权-->
