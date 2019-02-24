@@ -1,6 +1,8 @@
 VipVideoResolution北漂鱼Vip视频解析
 ========
+
 ![jpg](img/TestImg/Title.jpg)
+
 VipVideoResolution是一款开源视频播放框架。具有切换接口、自适应手机端、和后台更改接口、以及聊天插件同步等功能。
 
 前端界面Beipy自供自给进行设计布局，同时采用了流行的响应式设计，无论是在PC端还是在手机端，均能给您带来舒适的使用体验。
