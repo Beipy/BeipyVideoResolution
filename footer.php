@@ -16,7 +16,7 @@
 			<p><?php echo $aik['foot'];?></p>
 			
 			<p>管理员邮箱：<?php echo $aik['admin_email'];?>&nbsp; <a class="foot-tt" href="http://www.miitbeian.gov.cn" ><img style="vertical-align: middle;" src="img/beian.png"/><?php echo $aik['icp'];?></a>&nbsp; </p>
-			<p>Copyright&nbsp;&copy;&nbsp;2017~2019&nbsp;	<a href="http://beipy.com" target="_blank" style="color:#888;">beipy.com</a>版权所有 当前版本号：V2.5</p>
+			<p>Copyright&nbsp;&copy;&nbsp;2017~2019&nbsp;	<a href="http://beipy.com" target="_blank" style="color:#888;">beipy.com</a>版权所有 当前版本号：V2.6</p>
 			<p class="toot-tto"><?php echo $aik['tongji'];?></p>
 			<!--统计展示-->
 		</div>

@@ -79,12 +79,10 @@ Ho~　★★★★★★
 					    </td>
 					</tr>
 					<tr>
-					    <td width="125" align="right" valign="middle" class="s_title">导航微博窗：</td>
+					    <td width="125" align="right" valign="middle" class="s_title">微博：</td>
 					    <td valign="top">
 					    	<input type="text" name="aik[weibourl]" placeholder="请输入您的微博链接" class="shuru" value="<?php echo $aik['weibourl']?>" size="50"><br/>
-					    	<span class="gray tips">位置在导航微博图标下方>>------<a href="http://app.weibo.com/tool/weiboshow" target="_blank">点击获取微博秀</a></span>
-					    	<div class="cl5"></div>
-					    	<textarea name="aik[weibo]" cols="150" rows="5"><?php echo $aik['weibo']?></textarea>
+					    	
 					    </td>
 					</tr>
 					<tr>

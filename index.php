@@ -53,6 +53,9 @@
 								<li>
 									<a href="https://github.com/Beipy/VipVideoResolution" target="_blank"><span class="badge" style="background: #24292e;margin-right:5px;">Git</span>开源程序<span class="sr-only">(current)</span></a>
 								</li>
+								<li>
+									<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=07G2uqOqk6Ki-bC8vg" target="_blank">广告合作</a>
+								</li>
 								<?php echo $aik['topnav'];?>
 							</ul>
 							<!--导航 右侧-->
@@ -72,7 +75,7 @@
 										</li>
 										<li role="separator" class="divider"></li>
 										<li>
-											<a><p>版本号：V2.5</p></a>
+											<a><p>版本号：V2.6</p></a>
 										</li>
 									</ul>
 								</li>
@@ -87,7 +90,7 @@
 			<div class="container ">
 				<div class="tit-name">
 					<span>正在播放:</span>
-					<h1 id="tittext">感谢您使用北漂鱼视频解析服务,正在播放音乐MV视频！</h1>
+					<h1 id="tittext">音乐MV：Hwi Hwi！</h1>
 				</div>
 				<iframe id="palybox" src="<?php echo $aik['jiekou1'];?><?php echo $aik['maurl'];?>" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true"></iframe>
 
@@ -136,23 +139,24 @@
 
 				</div>
 				<div class="tit-gg">
-					<span><?php echo $aik['gonggao'];?></span>
+					<a href="<?php echo $aik['gonggaourl'];?>" target="_blank" ><?php echo $aik['gonggao'];?></a>
 				</div>
+				<div class="guanggaoBox"><?php echo $aik['guanggao'];?></div>
 			</div>
 		</div>
 		<div class="container-fluid logo-box">
 			<div class="container ">
-				<?php echo $aik['guanggao'];?>
-				</div>
-				</div>
+				
+			</div>
+		</div>
 		<!--平台logo	-->
 		<div class="container-fluid logo-box">
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="title-tit">
-							<h4>支持以下网站视频</h4>
-							<p>敬请关注，近期将开放支持更多平台。</p>
+							<h4>现已支持网站</h4>
+							<p>解析已支持26家视频网站，10家音乐网站，更多惊喜请自行探索。</p>
 						</div>
 					</div>
 				</div>
@@ -160,188 +164,140 @@
 				<div class="row">
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
-							<a href="http://vip.iqiyi.com/" target="_blank" title="爱奇艺会员">
-								<img class="img-responsive" src="img/iqiyilogo.png" />
+							<a href="http://www.iqiyi.com/" target="_blank" title="爱奇艺会员">
+								<img class="img-responsive" src="img/logo/iqiyilogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
-							<a href="http://film.qq.com/" target="_blank" title="腾讯会员中心">
-								<img class="img-responsive" src="img/qqlogo.png" />
+							<a href="http://v.qq.com/" target="_blank" title="腾讯会员中心">
+								<img class="img-responsive" src="img/logo/qqlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
-							<a href="http://vip.youku.com/" target="_blank" title="优酷会员中心">
-								<img class="img-responsive" src="img/youkulogo.png" />
+							<a href="http://www.youku.com/" target="_blank" title="优酷会员中心">
+								<img class="img-responsive" src="img/logo/youkulogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
-							<a href="http://www.mgtv.com/vip/" target="_blank" title="芒果会员中心">
-								<img class="img-responsive" src="img/hunantvlogo.png" />
+							<a href="http://www.mgtv.com/" target="_blank" title="芒果会员中心">
+								<img class="img-responsive" src="img/logo/hunantvlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
-							<a href="http://yuanxian.le.com/" target="_blank" title="乐视会员中心">
-								<img class="img-responsive" src="img/letvlogo.png" />
+							<a href="http://www.le.com/" target="_blank" title="乐视会员中心">
+								<img class="img-responsive" src="img/logo/letvlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
-							<a href="http://vip.tudou.com" target="_blank" title="土豆会员中心">
-								<img class="img-responsive" src="img/tudoulogo.png" />
+							<a href="http://www.tudou.com" target="_blank" title="土豆会员中心">
+								<img class="img-responsive" src="img/logo/tudoulogo.png" />
 							</a>
 						</div>
 					</div>
 				</div>
 				<!--第一行结束-->
-
 				<!--第二行开始-->
 				<div class="row">
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.baofeng.com/" target="_blank" title="暴风会员">
-								<img class="img-responsive" src="img/baofeng.png" />
+								<img class="img-responsive" src="img/logo/baofeng.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://vip.1905.com/" target="_blank" title="1905电影网视频">
-								<img class="img-responsive" src="img/1905logo.png" />
+								<img class="img-responsive" src="img/logo/1905logo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
-							<a href="http://vip.kankan.com/" target="_blank" title="天天看看">
-								<img class="img-responsive" src="img/kankan.png" />
+							<a href="http://www.kankan.com/" target="_blank" title="天天看看">
+								<img class="img-responsive" src="img/logo/kankan.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://www.pptv.com/" target="_blank" title="PPTV聚力">
-								<img class="img-responsive" src="img/pptv.png" />
+								<img class="img-responsive" src="img/logo/pptv.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.yinyuetai.com/" target="_blank" title="音悦台MV">
-								<img class="img-responsive" src="img/yinyuetailogo.png" />
+								<img class="img-responsive" src="img/logo/yinyuetailogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
-							<a href="http://www.56.com/" target="_blank" title="56视频">
-								<img class="img-responsive" src="img/56logo.png" />
+							<a href="http://www.fun.tv/" target="_blank" title="风行视频">
+								<img class="img-responsive" src="img/logo/fengxing.png" />
 							</a>
 						</div>
 					</div>
 				</div>
 				<!--第二行结束-->
-
 				<!--第三行开始-->
 				<div class="row">
-
-					<div class="col-xs-4 col-sm-2">
-						<div class="logo-lie">
-							<a href="http://www.fun.vip" target="_blank" title="风行视频">
-								<img class="img-responsive" src="img/fengxing.png" />
-							</a>
-						</div>
-					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
-							<a href="http://movie.ku6.com/" target="_blank" title="酷6视频">
-								<img class="img-responsive" src="img/ku6logo.png" />
-							</a>
-						</div>
-					</div>
-					<div class="col-xs-4 col-sm-2 ">
-						<div class="logo-lie">
-							<a href="http://vip.wasu.cn/" target="_blank" title="WASU华数视频">
-								<img class="img-responsive" src="img/wasulogo.png" />
+							<a href="http://www.wasu.cn/" target="_blank" title="WASU华数视频">
+								<img class="img-responsive" src="img/logo/wasulogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://video.sina.com.cn/" target="_blank" title="新浪视频">
-								<img class="img-responsive" src="img/sinalogo.png" />
+								<img class="img-responsive" src="img/logo/sinalogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="https://film.sohu.com/" target="_blank" title="搜狐视频">
-								<img class="img-responsive" src="img/sohulogo.png" />
-							</a>
-						</div>
-					</div>
-					<div class="col-xs-4 col-sm-2">
-						<div class="logo-lie">
-							<a href="http://www.baomihua.com/" target="_blank" title="爆米花">
-								<img class="img-responsive" src="img/baomihualogo.png" />
-							</a>
-						</div>
-					</div>
-				</div>
-				<!--第三行结束-->
-				<div class="row">
-
-					<div class="col-xs-4 col-sm-2">
-						<div class="logo-lie">
-							<a target="_blank" title="看看新闻网视频">
-								<img class="img-responsive" src="img/kankannewslogo.png" />
-							</a>
-						</div>
-					</div>
-					<div class="col-xs-4 col-sm-2 ">
-						<div class="logo-lie">
-							<a target="_blank" title="糖豆视频">
-								<img class="img-responsive" src="img/tangdoulogo.png" />
+								<img class="img-responsive" src="img/logo/sohulogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://tv.cctv.com/" target="_blank" title="央视网">
-								<img class="img-responsive" src="img/cntvlogo.png" />
+								<img class="img-responsive" src="img/logo/cntvlogo.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2 ">
 						<div class="logo-lie">
 							<a href="http://www.acfun.cn/" target="_blank" title="Ac弹幕网">
-								<img class="img-responsive" src="img/acfun.png" />
+								<img class="img-responsive" src="img/logo/acfun.png" />
 							</a>
 						</div>
 					</div>
 					<div class="col-xs-4 col-sm-2">
 						<div class="logo-lie">
 							<a href="http://www.bilibili.com/" target="_blank" title="哔哩哔哩">
-								<img class="img-responsive" src="img/bilibili.png" />
-							</a>
-						</div>
-					</div>
-					<div class="col-xs-4 col-sm-2">
-						<div class="logo-lie">
-							<a href="http://www.aipai.com/" target="_blank" title="爱拍原创">
-								<img class="img-responsive" src="img/aipai.png" />
+								<img class="img-responsive" src="img/logo/bilibili.png" />
 							</a>
 						</div>
 					</div>
 				</div>
+				<!--第三行结束-->
 				<!---->
 			</div>
 		</div>

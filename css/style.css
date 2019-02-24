@@ -5,6 +5,33 @@
  * 前端样式为北漂鱼原创设计UI图样设计
  * 所有代码均独立编写，谢绝一切形式的盗站行为！！
  *************************************************/
+
+
+ /* 畅言去广告（支持评论区跟右下角浮窗广告） */
+ #MZAD_POP_PLACEHOLDER,#pop_ad{margin-top:-250px!important;transform:scale(0)}
+#feedAv{transform:scale(0);margin-top:-150px!important}
+.module-cmt-box{padding:10px 0!important;margin-top:-40px!important}
+.header-login{left:90px!important;border:0!important;border-radius:0!important;margin-top:81pt!important;border-radius:21px!important}
+.post-wrap-border-l,.post-wrap-border-r,.post-wrap-border-t-l,.post-wrap-border-t-r{display:none}
+.post-wrap-main{border:0!important}
+.post-wrap-w{background:#f0f0f0;border-radius:6px;}
+.btn-fw{background:#0093ff url(../img/release.svg) center no-repeat!important;width:80px!important;height:34px!important;border-radius:15px;margin-top:10px!important;margin-right:10px!important;background-size:30px!important;box-shadow:0 2px 6px rgba(0,0,0,.2);-webkit-transition:.3s;transition:.3s}
+.btn-fw:hover{box-shadow:0 6px 10px rgba(0,0,0,.2)}
+.block-head-w{margin-top:-20px!important}
+.section-service-w{height:0;opacity:0}
+.head-img-w{margin:0!important}
+.head-img-w img{width:25px!important;height:25px!important}
+.head-img-w img:hover{transition:all .3s;transform:scale(3)}
+.head-img-w{top:138px!important;left:95px!important}
+.wrap-action-gw{border-bottom:1px solid #dee4e9!important;padding-top:30px!important;padding-bottom:1pc!important}
+.cmt-list-number,.title-name-gw-tag,.type-lists,.wrap-name-w{display:none!important}
+.cmt-list-type{margin:0!important}
+.build-floor-gw{background:#f0f0f0!important}
+.block-cont-gw{padding:20px 0!important;border:0!important}
+.section-list-w{width:95%!important;margin-left:2%!important}
+.head-img-gw img:hover{transition:all .3s;transform:scale(.9)}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -92,7 +119,6 @@ header .navbar-toggle {
 	color: #fff;
 	background-color: transparent;
 }
-
 .logo {
 	display: inline-block;
 	width: 150px;
@@ -102,10 +128,7 @@ header .navbar-toggle {
 	background-image: url(../img/jingling.png);
 	background-repeat: no-repeat;
 }
-
-
 /*video-box样式*/
-
 .video-box {
 	background-image: url(../img/mbj.jpg);
 	background-repeat: no-repeat;
@@ -125,6 +148,9 @@ header .navbar-toggle {
 #palybox {
 	width: 100%;
 	height: 224px;
+	background: url(../img/palyboxBg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .tit-name {
@@ -225,7 +251,6 @@ div.url-box .btn-play:hover {
 .tit-gg {
 	text-align: center;
 	line-height: 35px;
-	margin-bottom: 80px;
 	vertical-align: middle;
 	color: #3376f3;
 	background: #0f1856;
@@ -234,8 +259,12 @@ div.url-box .btn-play:hover {
 	white-space: nowrap;
 	word-wrap: normal;
 }
-
-
+.guanggaoBox{
+	margin: 40px 0 40px 0;
+}
+.guanggaoBox img{
+	width: 100%;
+}
 /*logo平台*/
 .title-tit {
 		font-family: "微软雅黑";

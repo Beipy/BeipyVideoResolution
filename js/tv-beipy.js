@@ -1,3 +1,4 @@
+
 //play点击事件
 function play() {
 	var rul = document.getElementById("url").value; //获取input链接
