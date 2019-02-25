@@ -1,6 +1,8 @@
-﻿VipVideoResolution北漂鱼Vip视频解析
+﻿![jpg](img/TestImg/Title.jpg)
+
+VipVideoResolution北漂鱼Vip视频解析
 ========
-![jpg](img/TestImg/Title.jpg)
+
 
 VipVideoResolution是一款开源视频播放框架。具有切换接口、自适应手机端、和后台更改接口、以及聊天插件同步等功能。
 
@@ -47,6 +49,9 @@ php 5.4+
 -----
 ![gif](img/TestImg/ezgif27.gif)
 
+![png](img/TestImg/2019-2-25.png)
+
+
 
 #### 采用的开源模块
 - **Jquery**：js主流开发框架 [http://jquery.com/](http://jquery.com/)
@@ -64,6 +69,7 @@ php 5.4+
 -----
 
 #### v2.6 `2019/2/25`
+- 更新界面UI
 - 去除畅言插件广告，美化评论框；
 - 更新后台设置保存错误问题；
 - 修复广告位置；
