@@ -1,10 +1,27 @@
-﻿![jpg](img/TestImg/Title.jpg)
+![jpg](img/TestImg/Title.jpg)
 
-VipVideoResolution北漂鱼Vip视频解析
+BeipyVideoResolution
 ========
+<p align="center">
+  <a>
+    <img src="https://img.shields.io/badge/Jquery-3.7.0-brightgreen.svg" alt="Jquery">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Bootstrap-3.0-blue.svg" alt="Bootstrap">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  </a>
+  <a href="http://www.beipy.com">
+    <img src="https://img.shields.io/badge/Author-Beipy-0093ff.svg">
+  </a>
+</p>
 
 
-VipVideoResolution是一款开源视频播放框架。具有切换接口、自适应手机端、和后台更改接口、以及聊天插件同步等功能。
+## <font style="color:red">最后声明永久不再维护此项目，最终截止V2.6版本</font>
+
+
+BeipyVideoResolution是一款开源视频播放框架。具有切换接口、自适应手机端、和后台更改接口、以及聊天插件同步等功能。
 
 前端界面Beipy自供自给进行设计布局，同时采用了流行的响应式设计，无论是在PC端还是在手机端，均能给您带来舒适的使用体验。
 
@@ -40,7 +57,6 @@ PHP 5.4+ （使用前请检查服务器运行环境是否低于5.4，否则会�
 - **蓝天 [[ http://wwpw.top/ ](http://wwpw.top)]** 原因：更改版权，去除本站开发版权！
 - **蓝海 [[ http://lanhaitv.com/ ](http://lanhaitv.com/)]** 原因：更改版权，去除本站开发版权！
 - **Anymore's Vip解析 [[ http://zzxzz.cn/ ](http://zzxzz.cn/)]** 原因：更改版权，去除本站开发版权！
-- **[[ https://cuijiahua.com/ ](https://cuijiahua.com/)]** 原因：更改版权，去除本站开发版权！
 - **[[ http://www.386life.com/ ](http://www.386life.com/)]** 原因：更改版权，去除本站开发版权！
 
 
@@ -52,10 +68,6 @@ PHP 5.4+ （使用前请检查服务器运行环境是否低于5.4，否则会�
 ![png](img/TestImg/2019-2-25.png)
 
 
-
-#### 采用的开源模块
-- **Jquery**：js主流开发框架 [http://jquery.com/](http://jquery.com/)
-- **Bootstrap**：主流响应式CSS框架[http://www.bootcss.com/](http://www.bootcss.com/)
 
 ### 打赏
 -----
@@ -104,4 +116,3 @@ PHP 5.4+ （使用前请检查服务器运行环境是否低于5.4，否则会�
 - 修改手机适配
 - 去除多余ico图标 
 - 手机版ui美化
-
