@@ -46,18 +46,6 @@ PHP 5.4+ （使用前请检查服务器运行环境是否低于5.4，否则会�
 
 **如发现有修改版权的请与本人反馈，在此谢过！📮Email:<beipy0@163.com>**
 
------
-#### <font style="color:red">版权耻辱</font>
-以下个人以及单位私自更改作者版权，永久进入本人的黑名单！
-
-<font style="color:red">`奉劝某些“人”保留住做人的最基本底线，遵守开源协议，并引以为戒`</font>
-
-- **送码网 [[ https://www.songma.com ](https://www.songma.com)]** 原因：未经本人允许进行非法售卖！
-- **我爱分享网 [[ https://vip.fxw.la ](http://vip.fxw.la)]** 原因：更改版权，去除本站开发版权！
-- **蓝天 [[ http://wwpw.top/ ](http://wwpw.top)]** 原因：更改版权，去除本站开发版权！
-- **蓝海 [[ http://lanhaitv.com/ ](http://lanhaitv.com/)]** 原因：更改版权，去除本站开发版权！
-- **Anymore's Vip解析 [[ http://zzxzz.cn/ ](http://zzxzz.cn/)]** 原因：更改版权，去除本站开发版权！
-- **[[ http://www.386life.com/ ](http://www.386life.com/)]** 原因：更改版权，去除本站开发版权！
 
 
 
